@@ -72,3 +72,6 @@ blockquote {
   margin: 0px;
   font-style: italic;
 }
+i {
+  font-size: 30px;
+}
