@@ -11,7 +11,7 @@ const posts = await Astro.glob("../pages/post/**/*.mdx");
           posts.map((post) => (
             <li>
               <Card
-                url={"/post/" + post.frontmatter.slug}
+                url={"/astro-blog/post/" + post.frontmatter.slug}
                 img={post.frontmatter.image}
                 title={post.frontmatter.title}
                 footer={post.frontmatter.author}
